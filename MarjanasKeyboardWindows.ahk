@@ -1,6 +1,7 @@
 ﻿#Requires AutoHotkey v2.0
-KeyHistory
-InstallKeybdHook 
+;KeyHistory
+;InstallKeybdHook
+;SetCapsLockState "AlwaysOff"
 
 SC07B::Space
 Space::LAlt
@@ -63,12 +64,14 @@ SC02C::/
 <!2::PgUp
 <!3::PgDn
 
-<!i::Backspace 
+<!i::Backspace
 <!k::Delete
 
 <!y::Tab
 <!'::Esc
 <!a::Enter
 
-CapsLock::LCtrl
 SC070::LCtrl
+LShift::LCtrl
+CapsLock::LCtrl
+ScrollLock::CapsLock
